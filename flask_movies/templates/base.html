@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}My Movies{% endblock %}</title>
+    </head>
+    <body>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/movies">Movies</a>
+            <a href="/about">About</a>
+        </nav>
+
+        <hr>
+
+        {% block content %}{% endblock %}
+    </body>
+</html>
